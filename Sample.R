@@ -19,6 +19,7 @@ sampling.tk <- function() {
     ## https://www.r-project.org/conferences/DSC-2001/Proceedings/Dalgaard.pdf
     require(tcltk)
     root <- tktoplevel()
+    tkwm.title(root,"Úttervezés tételhúzás")
     button <- tkbutton(root, text = "Tételhúzás")
     tkpack(button)
 }
