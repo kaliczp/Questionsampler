@@ -14,8 +14,11 @@ sample(c(1 # 1. Tétel
         ,14 # 14. Tétel
         ), 1)
 
-# https://www.r-project.org/conferences/DSC-2001/Proceedings/Dalgaard.pdf
-library(tcltk)
-root <- tktoplevel()
-button <- tkbutton(root, text = "Tételhúzás")
-tkpack(button)
+
+sampling.tk <- function() {
+    ## https://www.r-project.org/conferences/DSC-2001/Proceedings/Dalgaard.pdf
+    require(tcltk)
+    root <- tktoplevel()
+    button <- tkbutton(root, text = "Tételhúzás")
+    tkpack(button)
+}
