@@ -21,5 +21,5 @@ sampling.tk <- function() {
     root <- tktoplevel()
     tkwm.title(root,"Úttervezés tételhúzás")
     button <- tkbutton(root, text = "Tételhúzás")
-    tkpack(button)
+    tkpack(button, side = "bottom")
 }
