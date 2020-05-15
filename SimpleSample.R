@@ -1,5 +1,5 @@
 Qu1 <- 1:45; Qu2 <- 1:18
 
-cat(paste("Beugró:", sample(Qu1, 2)))
+cat("Beugró kérdések:", sort(sample(Qu1, 2)), "\n")
 
-cat(paste("Tétel:", sample(Qu2, 1)))
+cat("Tétel:", sample(Qu2, 1), "\n")
